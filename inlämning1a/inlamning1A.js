@@ -7,4 +7,4 @@
  let postnummer = prompt ("vad är ditt postnummer?")
  console.log (`\t \t ${postnummer}`)
  let telefonnummer = prompt ("vad är ditt telfonnummer?")
- console.log (`telfon: ${telefonnummer}`)
+ console.log (`telefon: ${telefonnummer}`)
