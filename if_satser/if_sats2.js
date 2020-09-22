@@ -1,6 +1,11 @@
 let weight = prompt ("hur mycket vikt har du med dig?")
-if (weight >=8) {
-    console.log("du får inte ta med dig väskan")
-} 
-else if (weight <=8) 
-console.log("du får ta med dig")
+let längd = prompt ("hur lång är din väska?")
+let bred = prompt ("hur bred är din väska?")
+let höjd = prompt ("hur hög är din väska")
+if (weight >=8 || längd >=55 || bred >=40 || höjd >=23) {
+    console.log("din väska väger tyvärr för mycket")
+} else  {
+    
+console.log("väskan är bra vikt och får gå med i flyget")
+}
+
