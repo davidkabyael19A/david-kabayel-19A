@@ -1,7 +1,47 @@
-header, nav, article, footer {
-    border:3px solid black;
-    text-align:center;
-background-color: deeppink;
-margin: 3px
+header, article, footer {
+  border:20px black;
+  text-align: center;
+  background-color:grey;
+}
+nav{
+  border:10px black;
+  text-align: center;
+  background-color:black;
+  
+}
+section{
+  display: flex;
+  margin: 0;
+}
 
- }
+nav{
+  flex: 5;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+article{
+  flex: 6;
+}
+@media only screen and (max-width: 700px) {
+  section {
+      flex-direction: column;
+  }
+}
