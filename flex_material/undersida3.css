@@ -29,7 +29,7 @@ aside{
     flex:3;
 }
 body{
-    background-color: lightgreen;
+    background-color: white;
 }
 footer{
     flex: 3;
@@ -43,8 +43,8 @@ footer{
   }
 
   a:link, a:visited {
-    background-color:lightgreen;
-    color: black;
+    background-color:black;
+    color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -53,5 +53,5 @@ footer{
   }
   
   a:hover, a:active {
-    background-color:lightgray;
+    background-color: black;
   }

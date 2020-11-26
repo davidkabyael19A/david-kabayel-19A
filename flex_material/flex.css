@@ -1,14 +1,16 @@
 header, article, footer {
   border:20px black;
   text-align: center;
-  background-color:grey;
+  background-color:white;
 }
 nav{
   border:10px black;
   text-align: center;
-  background-color:black;
+  background-color: black;
   
 }
+
+
 section{
   display: flex;
   margin: 0;
@@ -22,7 +24,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
 }
 
 li {

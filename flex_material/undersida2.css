@@ -1,18 +1,16 @@
 header, nav, article, aside, footer {
-    border:5px solid black;
-    background: grey;
-    margin:0 ;
-    opacity:0.8;
-    width: 80%;
-    margin:auto;
+    border:2px solid black;
     text-align:center;
+    background: white;
+    margin:5px;
     border-radius: 8px;
 }
-
+/*nav, article, aside wrapper*/
 section{
-    display:flex;
+    display:flex; 
     margin:0;
 }
+/*size of nav, artivle, aside*/
 nav{
     flex:3; 
 }
@@ -28,8 +26,36 @@ aside{
 footer{
     flex: 2;
 }
+/*The @media rule is used in media queries to apply different styles for different media types/devices.*/
 @media only screen and (max-width: 660px) {
     section {
       flex-direction:column;
     }
-  } 
+  }
+
+  a:link, a:visited {
+    background-color:black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+  }
+  
+  a:hover, a:active {
+    background-color:white;
+  }
+ 
+  body {
+    background-color: white;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+
+.list li {
+    text-decoration: none;
+}
